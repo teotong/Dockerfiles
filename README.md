@@ -17,5 +17,9 @@ make build
 构建及运行环境
 ```shell
 docker-compose build
-docker-compose up
+docker-compose up -d
+```
+关闭
+```shell
+docker-compose stop
 ```
